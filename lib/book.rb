@@ -1,6 +1,6 @@
 class Book
-  attr_accessor :author, :page_count, :genre
-  attr_reader :title
+  attr_accessor :author, :page_count
+  attr_reader :title, :genre
 
 GENERE []
 
@@ -12,4 +12,4 @@ GENERE []
     puts "Flipping the page...wow, you read fast!"
   end
 
-end
+def genre=(genre)
